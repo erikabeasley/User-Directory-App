@@ -1,8 +1,9 @@
 import axios from "axios";
 
-export default{ 
-    getUsers:function(){    
+export default {
+  // Grabs the users from our API via Axios
+  getUsers: function() {
 
-        return axios.get("https://randomuser.me/api/?results=200&nat=us");
-    }
+    return axios.get("https://randomuser.me/api/?results=200&nat=us");
+  }
 };
